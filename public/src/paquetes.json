@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "guia": "ABC123",
+    "peso": 2,
+    "tamano": "M",
+    "estado": "En tránsito",
+    "destino": "Buenos Aires",
+    "fecha": "2024-02-26"
+  },
+  {
+    "id": 2,
+    "guia": "DEF456",
+    "peso": 8,
+    "tamano": "L",
+    "estado": "Entregado",
+    "destino": "Córdoba",
+    "fecha": "2024-02-25"
+  },
+  {
+    "id": 3,
+    "guia": "GHI789",
+    "peso": 0.5,
+    "tamano": "S",
+    "estado": "Pendiente",
+    "destino": "Rosario",
+    "fecha": "2024-02-24"
+  },
+  {
+    "id": 1,
+    "guia": "ABC123",
+    "peso": 2,
+    "tamano": "M",
+    "estado": "En tránsito",
+    "destino": "Buenos Aires",
+    "fecha": "2024-02-26"
+  },
+  {
+    "id": 2,
+    "guia": "DEF456",
+    "peso": 8,
+    "tamano": "L",
+    "estado": "Entregado",
+    "destino": "Córdoba",
+    "fecha": "2024-02-25"
+  },
+  {
+    "id": 3,
+    "guia": "GHI789",
+    "peso": 0.5,
+    "tamano": "S",
+    "estado": "Pendiente",
+    "destino": "Rosario",
+    "fecha": "2024-02-24"
+  },
+  {
+    "id": 1,
+    "guia": "ABC123",
+    "peso": 2,
+    "tamano": "M",
+    "estado": "En tránsito",
+    "destino": "Buenos Aires",
+    "fecha": "2024-02-26"
+  },
+  {
+    "id": 2,
+    "guia": "DEF456",
+    "peso": 8,
+    "tamano": "L",
+    "estado": "Entregado",
+    "destino": "Córdoba",
+    "fecha": "2024-02-25"
+  },
+  {
+    "id": 3,
+    "guia": "GHI789",
+    "peso": 0.5,
+    "tamano": "S",
+    "estado": "Pendiente",
+    "destino": "Rosario",
+    "fecha": "2024-02-24"
+  },
+  {
+    "id": 1,
+    "guia": "ABC123",
+    "peso": 2,
+    "tamano": "M",
+    "estado": "En tránsito",
+    "destino": "Buenos Aires",
+    "fecha": "2024-02-26"
+  },
+  {
+    "id": 2,
+    "guia": "DEF456",
+    "peso": 8,
+    "tamano": "L",
+    "estado": "Entregado",
+    "destino": "Córdoba",
+    "fecha": "2024-02-25"
+  },
+  {
+    "id": 3,
+    "guia": "GHI789",
+    "peso": 0.5,
+    "tamano": "S",
+    "estado": "Pendiente",
+    "destino": "Rosario",
+    "fecha": "2024-02-24"
+  },
+  {
+    "id": 1,
+    "guia": "ABC123",
+    "peso": 2,
+    "tamano": "M",
+    "estado": "En tránsito",
+    "destino": "Buenos Aires",
+    "fecha": "2024-02-26"
+  },
+  {
+    "id": 2,
+    "guia": "DEF456",
+    "peso": 8,
+    "tamano": "L",
+    "estado": "Entregado",
+    "destino": "Córdoba",
+    "fecha": "2024-02-25"
+  },
+  {
+    "id": 3,
+    "guia": "GHI789",
+    "peso": 0.5,
+    "tamano": "S",
+    "estado": "Pendiente",
+    "destino": "Rosario",
+    "fecha": "2024-02-24"
+  },
+  {
+    "id": 1,
+    "guia": "ABC123",
+    "peso": 2,
+    "tamano": "M",
+    "estado": "En tránsito",
+    "destino": "Buenos Aires",
+    "fecha": "2024-02-26"
+  },
+  {
+    "id": 2,
+    "guia": "DEF456",
+    "peso": 8,
+    "tamano": "L",
+    "estado": "Entregado",
+    "destino": "Córdoba",
+    "fecha": "2024-02-25"
+  },
+  {
+    "id": 3,
+    "guia": "GHI789",
+    "peso": 0.5,
+    "tamano": "S",
+    "estado": "Pendiente",
+    "destino": "Rosario",
+    "fecha": "2024-02-24"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "guia": "G123456789",
+    "destino": "Buenos Aires",
+    "fecha": "2025-02-10T10:00:00Z",
+    "estado": "Pendiente",
+    "courier": "OCA"
+  },
+  {
+    "id": 2,
+    "guia": "G987654321",
+    "destino": "Córdoba",
+    "fecha": "2025-02-12T12:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Andreani"
+  },
+  {
+    "id": 3,
+    "guia": "G112233445",
+    "destino": "Rosario",
+    "fecha": "2025-02-14T14:00:00Z",
+    "estado": "Entregado",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 4,
+    "guia": "G998877665",
+    "destino": "Mendoza",
+    "fecha": "2025-02-15T16:00:00Z",
+    "estado": "Pendiente",
+    "courier": "OCA"
+  },
+  {
+    "id": 5,
+    "guia": "G223344556",
+    "destino": "San Juan",
+    "fecha": "2025-02-17T18:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Andreani"
+  },
+  {
+    "id": 6,
+    "guia": "G556677889",
+    "destino": "Neuquén",
+    "fecha": "2025-02-18T20:00:00Z",
+    "estado": "Entregado",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 7,
+    "guia": "G665544332",
+    "destino": "Tucumán",
+    "fecha": "2025-02-20T22:00:00Z",
+    "estado": "Cancelado",
+    "courier": "OCA"
+  },
+  {
+    "id": 8,
+    "guia": "G334455667",
+    "destino": "La Plata",
+    "fecha": "2025-02-22T08:00:00Z",
+    "estado": "Pendiente",
+    "courier": "Andreani"
+  },
+  {
+    "id": 9,
+    "guia": "G778899001",
+    "destino": "Mar del Plata",
+    "fecha": "2025-02-23T09:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 1,
+    "guia": "G123456789",
+    "destino": "Buenos Aires",
+    "fecha": "2025-02-10T10:00:00Z",
+    "estado": "Pendiente",
+    "courier": "OCA"
+  },
+  {
+    "id": 2,
+    "guia": "G987654321",
+    "destino": "Córdoba",
+    "fecha": "2025-02-12T12:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Andreani"
+  },
+  {
+    "id": 3,
+    "guia": "G112233445",
+    "destino": "Rosario",
+    "fecha": "2025-02-14T14:00:00Z",
+    "estado": "Entregado",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 4,
+    "guia": "G998877665",
+    "destino": "Mendoza",
+    "fecha": "2025-02-15T16:00:00Z",
+    "estado": "Pendiente",
+    "courier": "OCA"
+  },
+  {
+    "id": 5,
+    "guia": "G223344556",
+    "destino": "San Juan",
+    "fecha": "2025-02-17T18:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Andreani"
+  },
+  {
+    "id": 6,
+    "guia": "G556677889",
+    "destino": "Neuquén",
+    "fecha": "2025-02-18T20:00:00Z",
+    "estado": "Entregado",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 7,
+    "guia": "G665544332",
+    "destino": "Tucumán",
+    "fecha": "2025-02-20T22:00:00Z",
+    "estado": "Cancelado",
+    "courier": "OCA"
+  },
+  {
+    "id": 8,
+    "guia": "G334455667",
+    "destino": "La Plata",
+    "fecha": "2025-02-22T08:00:00Z",
+    "estado": "Pendiente",
+    "courier": "Andreani"
+  },
+  {
+    "id": 9,
+    "guia": "G778899001",
+    "destino": "Mar del Plata",
+    "fecha": "2025-02-23T09:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 1,
+    "guia": "G123456789",
+    "destino": "Buenos Aires",
+    "fecha": "2025-02-10T10:00:00Z",
+    "estado": "Pendiente",
+    "courier": "OCA"
+  },
+  {
+    "id": 2,
+    "guia": "G987654321",
+    "destino": "Córdoba",
+    "fecha": "2025-02-12T12:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Andreani"
+  },
+  {
+    "id": 3,
+    "guia": "G112233445",
+    "destino": "Rosario",
+    "fecha": "2025-02-14T14:00:00Z",
+    "estado": "Entregado",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 4,
+    "guia": "G998877665",
+    "destino": "Mendoza",
+    "fecha": "2025-02-15T16:00:00Z",
+    "estado": "Pendiente",
+    "courier": "OCA"
+  },
+  {
+    "id": 5,
+    "guia": "G223344556",
+    "destino": "San Juan",
+    "fecha": "2025-02-17T18:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Andreani"
+  },
+  {
+    "id": 6,
+    "guia": "G556677889",
+    "destino": "Neuquén",
+    "fecha": "2025-02-18T20:00:00Z",
+    "estado": "Entregado",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 7,
+    "guia": "G665544332",
+    "destino": "Tucumán",
+    "fecha": "2025-02-20T22:00:00Z",
+    "estado": "Cancelado",
+    "courier": "OCA"
+  },
+  {
+    "id": 8,
+    "guia": "G334455667",
+    "destino": "La Plata",
+    "fecha": "2025-02-22T08:00:00Z",
+    "estado": "Pendiente",
+    "courier": "Andreani"
+  },
+  {
+    "id": 9,
+    "guia": "G778899001",
+    "destino": "Mar del Plata",
+    "fecha": "2025-02-23T09:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 1,
+    "guia": "G123456789",
+    "destino": "Buenos Aires",
+    "fecha": "2025-02-10T10:00:00Z",
+    "estado": "Pendiente",
+    "courier": "OCA"
+  },
+  {
+    "id": 2,
+    "guia": "G987654321",
+    "destino": "Córdoba",
+    "fecha": "2025-02-12T12:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Andreani"
+  },
+  {
+    "id": 3,
+    "guia": "G112233445",
+    "destino": "Rosario",
+    "fecha": "2025-02-14T14:00:00Z",
+    "estado": "Entregado",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 4,
+    "guia": "G998877665",
+    "destino": "Mendoza",
+    "fecha": "2025-02-15T16:00:00Z",
+    "estado": "Pendiente",
+    "courier": "OCA"
+  },
+  {
+    "id": 5,
+    "guia": "G223344556",
+    "destino": "San Juan",
+    "fecha": "2025-02-17T18:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Andreani"
+  },
+  {
+    "id": 6,
+    "guia": "G556677889",
+    "destino": "Neuquén",
+    "fecha": "2025-02-18T20:00:00Z",
+    "estado": "Entregado",
+    "courier": "Bolsón"
+  },
+  {
+    "id": 7,
+    "guia": "G665544332",
+    "destino": "Tucumán",
+    "fecha": "2025-02-20T22:00:00Z",
+    "estado": "Cancelado",
+    "courier": "OCA"
+  },
+  {
+    "id": 8,
+    "guia": "G334455667",
+    "destino": "La Plata",
+    "fecha": "2025-02-22T08:00:00Z",
+    "estado": "Pendiente",
+    "courier": "Andreani"
+  },
+  {
+    "id": 9,
+    "guia": "G778899001",
+    "destino": "Mar del Plata",
+    "fecha": "2025-02-23T09:00:00Z",
+    "estado": "En Tránsito",
+    "courier": "Bolsón"
+  }
+]

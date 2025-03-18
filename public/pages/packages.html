@@ -1,0 +1,100 @@
+<!-- Main Content -->
+<div class="col-12">
+  <div class="mb-2">
+    <h3 class="col-12 col-md-6">Gestión Paquetes</h2>
+  </div>
+
+  <!-- Filtros -->
+  <div class="container my-3">
+    <!-- Botón para mostrar/ocultar filtros alineado a la derecha -->
+    <div
+      class="d-flex flex-column flex-md-row justify-content-between gap-2 col-12"
+    >
+      <div class="d-flex justify-content-start mb-2 col-3 col-md-6">
+        <button class="btn btn-primary d-flex flex-row" id="toggleFilters">
+          <i class="fas fa-filter me-2"></i> Filtros
+        </button>
+      </div>
+      <div class="search-container col-12 col-md-3">
+        <input
+          type="text"
+          class="form-control"
+          id="searchInput"
+          placeholder="Buscar paquete..."
+        />
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+
+    <!-- Contenedor de los filtros -->
+    <div
+      class="filter-card mt-2 p-3 border rounded d-none"
+      id="filterContainer"
+    >
+      <div class="row d-flex justify-content-end gap-2 gap-md-0">
+        <div class="col-md-3 d-flex flex-column justify-content-end">
+          <label class="form-label">Peso</label>
+          <select class="form-select" id="pesoFilter">
+            <option value="">Todos</option>
+            <option value="1">0-1 kg</option>
+            <option value="5">1-5 kg</option>
+            <option value="10">< 10 kg</option>
+            <option value="more">Más de 10 kg</option>
+          </select>
+        </div>
+        <div class="col-md-3 d-flex flex-column justify-content-end">
+          <label class="form-label">Tamaño</label>
+          <select class="form-select" id="tamanoFilter">
+            <option value="">Todos</option>
+            <option value="S">Pequeño</option>
+            <option value="M">Mediano</option>
+            <option value="L">Grande</option>
+            <option value="XL">Extra Grande</option>
+          </select>
+        </div>
+        <div class="col-md-3 d-flex flex-column justify-content-end">
+          <label class="form-label">Cantidad por página</label>
+          <select class="form-select" id="cantidadFilter">
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </div>
+        <div class="col-md-3 d-flex flex-column justify-content-end">
+          <button class="btn btn-secondary w-100">
+            <i class="fas fa-undo me-2"></i> Limpiar Filtros
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabla de Paquetes -->
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead class="table-light">
+        <tr>
+          <th>ID</th>
+          <th>Guía</th>
+          <th>Peso</th>
+          <th>Tamaño</th>
+          <th>Estado</th>
+          <th>Destino</th>
+          <th>Fecha</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tablaPaquetes">
+        <!-- La tabla se llenará dinámicamente -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Paginación -->
+  <nav aria-label="Paginación de paquetes">
+    <ul class="pagination justify-content-center" id="paginacion">
+      <!-- La paginación se generará dinámicamente -->
+    </ul>
+  </nav>
+</div>

@@ -1,0 +1,107 @@
+<head>
+  <style></style>
+</head>
+
+<div class="container">
+  <h3 class="mb-3">Escanear Guía</h2>
+
+  <div class="row">
+    <!-- Escaneo QR -->
+    <div class="col-md-4">
+      <div class="scan-option text-center" onclick="abrirModalQR()">
+        <h4><i class="fas fa-qrcode me-2"></i> Escanear QR</h4>
+        <p>Usa la cámara de tu dispositivo para escanear un código QR</p>
+        <button class="btn btn-primary">Iniciar Escaneo QR</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal de Escaneo QR -->
+<div
+  class="modal fade"
+  id="modalQR"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-dialog-centered align-self-center"
+    role="document"
+  >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Escanear QR</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-dismiss="modal"
+          aria-label="Close"
+          onclick="cerrarQR()"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="col-12" id="qr-reader"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal de Formulario -->
+<div class="modal fade" id="modalFormulario" tabindex="-1">
+  <div
+    class="modal-dialog modal-dialog-centered align-self-center col-md-9 col-lg-9"
+  >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Detalles del Paquete</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form id="formDatos">
+          <div class="mb-3">
+            <label>Nombre:</label>
+            <input type="text" class="form-control" id="nombre" disabled />
+          </div>
+          <div class="mb-3">
+            <label>Guía:</label>
+            <input type="text" class="form-control" id="guia" disabled />
+          </div>
+          <div class="mb-3">
+            <label>Peso:</label>
+            <input type="text" class="form-control" id="peso" disabled />
+          </div>
+          <div class="mb-3">
+            <label>Destino:</label>
+            <input type="text" class="form-control" id="destino" disabled />
+          </div>
+          <div class="mb-3">
+            <label>Origen:</label>
+            <input type="text" class="form-control" id="origen" disabled />
+          </div>
+          <div class="mb-3">
+            <label>Courier:</label>
+            <select class="form-select" id="courier" disabled>
+              <option value="oca">OCA</option>
+              <option value="andreani">Andreani</option>
+              <option value="interno">Interno</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">
+          Cancelar
+        </button>
+        <button class="btn btn-warning" onclick="habilitarEdicion()">
+          Modificar
+        </button>
+        <button class="btn btn-success" onclick="enviarDatos()">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
